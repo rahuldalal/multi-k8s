@@ -1,3 +1,5 @@
 # mac & editor
 .idea
 .DS_Store
+# minikube
+none
