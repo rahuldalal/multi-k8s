@@ -14,7 +14,7 @@ spec:
         component: web
     spec:
       containers:
-        - name: client-contianer
-          image: rahulvdalal/multi-docker-client
+        - name: client
+          image: rahulvdalal/multi-client
           ports:
             - containerPort: 3000

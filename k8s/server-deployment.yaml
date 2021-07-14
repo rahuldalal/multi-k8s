@@ -14,8 +14,8 @@ spec:
         component: server
     spec:
       containers:
-        - name: server-container
-          image: rahulvdalal/multi-docker-server
+        - name: server
+          image: rahulvdalal/multi-server
           ports:
             - containerPort: 5000
           env:
